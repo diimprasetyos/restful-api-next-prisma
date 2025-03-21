@@ -39,7 +39,7 @@ export default function Home() {
           <div className="text-sm mb-2">{post.content}</div>
           <button
             onClick={() => router.push(`/edit/${post.id}`)}
-            className="text-sm text-red-600 border border- inset-shadow-gray-200 p-2"
+            className="text-sm text-red-600 border border inset-shadow-gray-200 p-2"
           >
             edit
           </button>
